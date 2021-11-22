@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background: rgb(184,174,238);
+background: radial-gradient(circle, rgba(184,174,238,1) 0%, rgba(163,91,214,1) 16%, rgba(156,10,195,1) 95%);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.fotos img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.fotos{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+    box-shadow: rgb(24, 22, 22) 5px 5px 4;
+
+}
+.pregunta{
+    text-align: center;
+    margin:0 auto;
+}
+.se{
+   text-align: center; 
+}
+.texto{
+    font-family: cursive;
+    width: 60%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.331);
+    margin: 0 auto;
+    box-shadow: white 0px 0px 30px;
+    margin-top:70px;
+    font-size: 15px;
+}
+input{
+    width: 70px;
+    height: 50px;
+    margin:0 0px;
+    margin :0 70px;
+}
+.wspp{
+   margin-top:-50px;
+   text-align: center;
+   
+   
+    
+}
+a{
+    color: white;
+}
+.audio{
+   position: absolute;
+   left:0px;
+   top:10px;
+    
+
+}
+.te{
+    position: absolute;
+    top:200px;
+    width: 200px;
+}

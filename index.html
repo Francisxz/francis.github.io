@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mi lu <3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./style.css" />
+    
+
+    <script>
+        function accionParaCuandoEllaDigaQueSi(){
+            alert('Thanks sabia que dirias que si :3 , te quieroo.');
+        }
+
+        function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="audio" > 
+           <audio src="./Perdiendo el Interés - Neutro Shorty [Letra_Lyrics](MP3_320K).mp3 " controls  ></audio></div>
+    <div class="texto">
+    <p> Hola :c , Lucia se que eh sido un gil por hacer lo que hice antes , cada vez que me acuerdo de eso me siento mal enserio , y si estoy haciendo esto es porque me acorde , aveces me imagino como seria si tu y yo estariamos bien y regresaramos a esos "planes" de antes... quiero intentar recuperar tu amistad .
+    Enserio después de ti ninguna chica se me hizo tan atractiva  ,  me plantie varias metas y en eso estabas tu , pensandote .
+    Se que te dije varias cosas que estuvieron mal , pero ahora me arrepiento de eso . Eres una chica muy hermosa e inteligente , una de las cosas que yo me plantie cuando iba a empezar mis cursos ,era no desconcentrarme por una relación porque pensaba que me iba a quitar tiempo , gracias a Dios me esta llendo exelente , se que aun me falta . pero una vez terminado , si me lo permites te puedo dar el tiempo y hacer varias cosas que ahora mismo quiero hacer contigo , obviamente no decuidando mis estudios . Lo que hice en el pasado me quedo de experiencia ...   ojalá te guste este pequeñesimo detalle  . Te quiero 	&#9829;	<b>Nunca es tarde para empezar de nuevo. </b>         </p> </div>
+    <div class="pregunta">
+    <h1>¿Me das una oportunidad ? :c</h1>
+
+    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
+    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" /> </div>
+    <div class="fotos">
+    <img src="./1637454307362.jpg" alt="foto1" width="200" height="200px">
+    <img src="./1637454307372.jpg" alt="foto2">
+    <img src="./1637454307383.jpg" alt="foto3">
+    <img src="./1637454307393.jpg" alt="foto4"> 
+   
+</div>
+
+
+
+
+<div class="wspp">
+<a href="https://api.whatsapp.com/send?phone=+51 959472438" target="_blank">hablame por whatsapp :3</a>
+</div>
+
+
+</div>
+</body>
+</html>
